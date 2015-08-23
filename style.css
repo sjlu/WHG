@@ -45,6 +45,11 @@ body {
   color: #502d84;
 }
 
+#contact a {
+  color: #502d84;
+  text-decoration: none;
+}
+
 #title {
   font-size: 65px;
   line-height: 69px;
