@@ -1,0 +1,79 @@
+
+
+html, body, .viewport {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+  font-family: 'Didot', sans-serif;
+}
+
+body {
+  background: url(background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+#container {
+  padding: 25px;
+  height: 100%;
+}
+
+.purple-border {
+  border: 2px solid #502d84;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  margin-top: -35px;
+  font-size: 20px;
+  color: #502d84;
+}
+
+#title {
+  font-size: 65px;
+  line-height: 69px;
+  color: #502d84;
+}
+
+#subtitle {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+  color: #d639e8;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+@media screen and (max-device-width: 480px) {
+  #title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+
+  #subtitle {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  #contact {
+    font-size: 16px;
+  }
+}

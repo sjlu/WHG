@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Didot';
+  src: url('fonts/Didot-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Didot-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Didot-Bold.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Didot-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Didot-Bold.svg#a0b76936f95cc33d039ed6b845677ae2') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('fonts/Didot.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Didot.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Didot.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Didot.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Didot.svg#7226759d2e91f9f52d6cba6d35e6a606') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
